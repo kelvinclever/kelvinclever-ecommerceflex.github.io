@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color:rgba(211, 211, 211, 0.226);
+    padding-left: 10px;
+}
+.itemsLogo{
+    display: flex;
+    align-items: center;
+}
+
+.menuItems{
+    margin-left:4rem;
+
+}
+.menuItems ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+
+
+}
+.menuItems ul li{
+    margin: 10px;
+}
+.menuItems ul li a{
+    text-decoration: none;
+    color: black;
+}
+.cartAvatar{
+    display: inline-flex;
+    margin-right:5rem;
+    height: 70px;
+    align-items: center;
+
+}
+.Avatar{
+    margin-left: 20px;
+}
+.Avatar img{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+.logo{
+    margin-left: 4rem;
+}
+.imageOthers{
+    display: inline-flex;
+    margin-left: 7rem;
+    gap: 1rem;
+}
+.imageOthers img{
+    width:70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+.imageContentLeft .mainImage img{
+    margin-top: 4rem;
+    width: 20.4rem;
+    border-radius: 5px;
+    margin-left: 7rem;
+}
+.imageContentLeft{
+    margin-top: 2rem;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.contentDescriptionRight{
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+.priceContent #currentPrice{
+  
+    font-size: 2rem;
+    font-weight:bolder;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.priceContent #discount{
+    background-color: hsl(25, 100%, 94%);
+    padding: 3px;
+    color: red;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cancelledPrice #cancelledPrice{
+    
+    color: rgba(128, 128, 128, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    
+}
+.cancelledPrice{
+    margin-top: 1rem;
+}
+.priceContent{
+    margin-top: 4rem;
+    display: inline-flex;
+    align-items:center;
+}
+.spanprice{
+    margin-left: 1rem;
+}
+.increment{
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    left: 0;
+    justify-content: space;
+    gap: 2rem;
+    padding-left: 1rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    width: 7rem;
+    flex-direction: row;
+    margin-left: -3rem;
+    background-color:hsl(223, 64%, 98%);
+    
+
+    
+}
+.increment button{
+    border: none;
+    background-color: transparent;
+}
+
+
+.textContent span{
+    color: hsl(26, 100%, 55%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+.itemsNumber{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 0.3rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+
+}
+.buttonAdd button{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 4px;
+    border: transparent;
+    display: flex;
+    gap: 0.3rem;
+}
+.textContent h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: none;
+}
+/**footer commends**/
+.footerreco{
+    font-size: 1px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+    color: hsl(26, 100%, 55%);
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+
